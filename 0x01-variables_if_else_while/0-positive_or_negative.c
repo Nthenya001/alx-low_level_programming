@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
-*main : assign a random number to the variable n each time it is executed
+*main - Entry point
 *and prints based on a condition
 *Return : It is always zero
 */
