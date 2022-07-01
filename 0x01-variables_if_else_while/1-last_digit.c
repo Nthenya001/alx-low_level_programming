@@ -7,7 +7,7 @@
 int main(void)
 {
 	int n;
-	drand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX /2;
 	printf("The last digit of %d is", n);
 	if (n > 5)
@@ -22,5 +22,6 @@ int main(void)
 	{
 		printf("less than 6 not 0");
 	}
+	printf("\n");
 	return(0);
 }
