@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
 *main - Entry point
-*and prints based on a condition
+*
 *Return : It is always zero
 */
 int main(void)
