@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*
-*main : assign a random number to the variable n each time it is executed and prints
-*based on a condition
+*main : assign a random number to the variable n each time it is executed 
+*and prints based on a condition
 *Return : It is always zero
 */
 int main(void)
@@ -18,6 +18,6 @@ if (n > 0)
 if (n == 0)
 	printf("%d is zero\n", n);
 if (n < 0)
-	printf("%d is negative\n", n);	
+	printf("%d is negative\n", n);
 return (0);
 }
