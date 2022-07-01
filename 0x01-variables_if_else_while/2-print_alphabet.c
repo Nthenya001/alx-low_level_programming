@@ -1,0 +1,18 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return : Always 0
+ */
+int main(void)
+{
+	char alpabet;
+
+	for (alphabet = 'a'; alpabet <= 'z'; alphabet++)
+	{
+		putchar(alphabet);
+	}
+	putchar('\n');
+
+	return(0);
+}
