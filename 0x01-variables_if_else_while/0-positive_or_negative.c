@@ -5,7 +5,7 @@
 /**
 * main - Entry point
 *
-* Return : It is always zero
+* Return: It is always zero
 *
 */
 
