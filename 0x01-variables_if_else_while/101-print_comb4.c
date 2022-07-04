@@ -20,7 +20,7 @@ int main(void)
 				putchar(center);
 				putchar(right);
 
-				if ((left == 55) && (center == left + 1) && (right ++ center + 1))
+				if ((left == 55) && (center == left + 1) && (right == center + 1))
 				{
 					break;
 				}
