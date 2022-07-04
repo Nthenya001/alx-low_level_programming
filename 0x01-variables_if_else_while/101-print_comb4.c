@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int left;
 	int right;
-	int corner;
+	int center;
 
 	for (left = 48; left <= 57; left++)
 	{
