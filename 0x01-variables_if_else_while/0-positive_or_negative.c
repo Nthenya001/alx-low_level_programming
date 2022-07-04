@@ -5,10 +5,10 @@
 /**
 * main - Entry point
 *
-*
 * Return : It is always zero
 *
 */
+
 int main(void)
 {
 int n;
