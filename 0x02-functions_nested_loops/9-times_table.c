@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * times_tables - prints tables
+ * times_table - prints tables
  *
  * Return: Always 0
  */
-void times_tables(void)
+void times_table(void)
 {
 	int a;
 	int b;
@@ -18,7 +18,7 @@ void times_tables(void)
 			{
 				if (b == 0)
 				{
-					_putcha ('0');
+					_putchar ('0');
 				}
 				if ( b != 0)
 				{
