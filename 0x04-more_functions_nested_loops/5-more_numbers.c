@@ -33,6 +33,7 @@ void more_numbers(void)
 
 			result++;
 		}
+
 		result = 0;
 		_putchar ('\n');
 	}
