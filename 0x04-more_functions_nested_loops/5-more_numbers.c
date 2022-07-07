@@ -32,7 +32,7 @@ void more_numbers(void)
 
 			result++;
 		}
-
+		i++;
 		result = 0;
 		_putchar ('\n');
 	}
