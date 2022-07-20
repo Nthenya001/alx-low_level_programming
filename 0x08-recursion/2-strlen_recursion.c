@@ -4,7 +4,7 @@
  * @s: pointer block of memory to fill
  * Return: strlen_recursion
  */
-int _strlrn_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	/*Base condition*/
 	if (*s == '\0')
