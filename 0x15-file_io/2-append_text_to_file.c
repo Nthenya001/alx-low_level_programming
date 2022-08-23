@@ -18,10 +18,10 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content != NULL)
 	{
-		for (i = 0; text_content != NULL)
+		for (i = 0; text_content[1]; i++)
 			;
 		fwrite = write(file, text_content, i);
-		if (fwite == -1)
+		if (fwrite == -1)
 			return (-1);
 	}
 	close(file);
